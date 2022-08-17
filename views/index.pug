@@ -1,0 +1,64 @@
+doctype html 
+html 
+  head
+    title SAEED DANCE ACADEMY
+    style 
+      include ../static/style.css 
+  body 
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/girl.png")
+                | SDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class info] 
+            li #[a(href="/") Contact info] 
+
+    section#introSection 
+        div Welcome to the saeed's Dance Academy
+        div.small Dance Dance Dance 
+
+
+    section#MissionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/hand.png")
+
+                    div.card-content
+                        p This is the best Dance academy in the Pune city
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/hat.png")
+
+                    div.card-content
+                        p This is the best Dance academy in the Pune city
+            div.card
+                h3 Expert in teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/dan.png")
+
+                    div.card-content
+                        p This is the best Dance academy in the Pune city
+
+    section#sponserSection 
+        h2 Our sponsers
+        div#sponsers
+            img(src="/static/cock.png", alt="sponser image", class="spimage") 
+            img(src="/static/bbv.png", alt="sponser image", class="spimage") 
+            img(src="/static/hyun.png", alt="sponser image", class="spimage") 
+            img(src="/static/sam.png", alt="sponser image", class="spimage") 
+
+    footer#footer 
+        | Copyright 2020 SaeedDanceAcademy.com | All Rigts Reserved    
+             
+
+    script 
+       include ../static/index.js

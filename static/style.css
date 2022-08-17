@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Mono:ital@1&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo{
+    display: flex;
+    color:azure;
+    align-items: center;
+    margin:0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height:42px;
+    filter:invert(1);
+}
+#navbar{
+    background-color: thistle;
+    padding: 13px 14px;
+}
+
+#navbar ul{
+      display: flex;
+      flex-direction: row;
+      /*justify-content: center;*/
+      align-items: center;
+}
+
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color:black;
+}
+#introSection{
+    color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    background: center /cover no-repeat url("/static/bgg.jpg.jpg");
+    height:350px;
+
+    
+
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+    
+
+}
+#MissionSection{
+    height:326px;
+    width:67%;
+    margin: auto;
+    
+}
+#MissionSection h2{
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top:8px;    
+}
+.card{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width:28%;
+    margin:20px 10px;
+    height:213px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height:90px;
+    padding: 0 14px;
+    margin:5px 9px;
+}
+.card-img img{
+    height:inherit;
+}
+.card-content{
+    padding: 0 5px;
+}
+.card-content p{
+    font-size: 12px;
+}
+#sponserSection{
+    height:300px;
+    background-color:yellow
+    
+}
+#sponserSection h2{
+    text-align: center;
+    font-size: 36px;
+    padding-top:12px;
+}
+#sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+.spimage{
+    height:70%;
+    margin:20px;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height:60px;
+    background-color: tomato;
+
+}

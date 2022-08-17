@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css 
+
+block content
+    
+    section#introSection 
+        div Welcome to the saeed's Dance Academy
+        div.small Dance Dance Dance 
+
+
+    section#MissionSection 
+            h2 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/hand.png")
+
+                    div.card-content
+                        p This is the best Dance academy in the Pune city
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/hat.png")
+
+                    div.card-content
+                        p This is the best Dance academy in the Pune city
+            div.card
+                h3 Expert in teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/dan.png")
+
+                    div.card-content
+                        p This is the best Dance academy in the Pune city
+
+    section#sponserSection 
+        h2 Our sponsers
+        div#sponsers
+            img(src="/static/cock.png", alt="sponser image", class="spimage") 
+            img(src="/static/bbv.png", alt="sponser image", class="spimage") 
+            img(src="/static/hyun.png", alt="sponser image", class="spimage") 
+            img(src="/static/sam.png", alt="sponser image", class="spimage")
